@@ -1,0 +1,51 @@
+.hospitalSection{
+    background-size: cover;
+    background-color: #F6F6F6;
+    min-height: 90vh;
+    width: 100%;
+}
+
+.rowContainer{
+    border: #416a59 2px solid;
+}
+
+.leftSide{
+    background-color: white;
+    color: #5cb25d;
+}
+
+.formCSS{
+    border: #416a59 2px solid ;
+    color: #39395f;
+}
+
+.btnSearch{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #416a59;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btnSearch:hover{
+    background-color: #73a24e;
+    color: white;
+}
+
+.mapResponsive{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;
+}
+
+.mapResponsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
